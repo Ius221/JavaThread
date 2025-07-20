@@ -19,7 +19,7 @@ public class Main {
 
 //        By Implementing runnable interfaces
         MyThreadInteface myThreadInteface = new MyThreadInteface();
-        Thread t1 = new Thread(myThreadInteface);
+        Thread t1 = new Thread(myThreadInteface,"Thread--01");
         t1.start();
     }
 }
